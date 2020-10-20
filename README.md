@@ -1,4 +1,4 @@
-# Data Management for Digital Health 2020/21]
+# Data Management for Digital Health 2020/21
 
 This repository contains the code to reproduce figures, metrics, and models for the 2020/21 version of the [course](https://hpi.de/digital-health-center/teaching/winter-term-2020-21/data-management-for-digital-health.html).
 
