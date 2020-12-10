@@ -23,6 +23,7 @@ def plot_data_and_decision_boundary(the_data, f1, f2, target, model=None):
     fig, ax = plt.subplots()
     fig.set_size_inches(11.7, 8.27)
     sns.scatterplot(x=f1, y=f2, data=the_data, style=target, hue=target, ax=ax, s=150)
+    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5), ncol=1)
 
     if model:
         xx, yy = make_meshgrid(the_data[f1], the_data[f2])
